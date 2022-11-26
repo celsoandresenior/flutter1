@@ -2,6 +2,8 @@
 *.h     linguist-detectable=false
 *.cc    linguist-detectable=false
 *.c     linguist-detectable=false
+*.txt   linguist-detectable=false
+*.kt    linguist-detectable=false
 *.swift linguist-detectable=false
 *.html  linguist-detectable=false
 *.java  linguist-detectable=false
