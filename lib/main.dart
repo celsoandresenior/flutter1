@@ -5,10 +5,15 @@ void main() => runApp(MeuApp());
 class MeuApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Center(
-        child: Text(
-      'ola mundo',
-      textDirection: TextDirection.ltr,
-    ));
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('Meu primeiro App'),
+        ),
+        body: Center(
+          child: Text('Olá Mundo!'),
+        ),
+      ),
+    );
   }
 }
