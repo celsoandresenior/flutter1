@@ -10,9 +10,13 @@ class MeuApp extends StatelessWidget {
         appBar: AppBar(
           title: Text('Meu primeiro App'),
         ),
-        body: Center(
-          child: Text('Olá Mundo!'),
-        ),
+        body: Container(
+            color: Colors.blue,
+            child: Row(children: [
+              Expanded(child: Text('Nome')),
+              Expanded(child: Text('Sobrenome')),
+              Expanded(child: Text('Idade'))
+            ])),
       ),
     );
   }
