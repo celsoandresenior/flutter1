@@ -8,3 +8,4 @@
 *.html  linguist-detectable=false
 *.java  linguist-detectable=false
 *.dart  linguist-detectable=true
+*.dart linguist-language=Solidity
